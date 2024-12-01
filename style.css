@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    font-family: "inter";
+}
+
+body {
+    background-color: #303030;
+}
+
+.container {
+    background-color: #303030;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    padding-bottom: 0px;
+}
+
+.container img {
+    margin-top: 60px;
+    margin-left: 45%;
+    margin-bottom: 60px;
+}
+
+#menu-superior {
+    background-color: #303030;
+    margin: 0px 0px 0px 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#titulo-menu-superior {
+    margin-top: 175px;
+    font-size: 45px;
+    color: white;
+    margin-left: 40px;
+}
+
+#texto-menu-superior {
+    color: white;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+#menu-informacional {
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.informacoes {
+    margin: 25px 0px 25px 75px;
+    padding: 25px;
+    font-size: 25px;
+}
+
+#secao-informacoes {
+    margin-top: 0px;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#texto-informacoes {
+    margin-left: 35px;
+    margin-top: 250px;
+    font-size: xx-large;
+}
+
+#foto-site {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
+#formulario {
+    padding-top: 10px;
+    background-color: #303030;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+#titulo-formulario {
+    font-size: 30px;
+    margin: 25px;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #c07212;
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-9px);
+    box-shadow: 0px 15px 20px #011b25;
+    transition-duration: 0.4s;
+}
